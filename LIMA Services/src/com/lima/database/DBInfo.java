@@ -8,7 +8,7 @@ import com.lima.logging.LogWrapper;
 /**
  * DBInfo Class to obtain database related connection parameters from properties file
  * These parameters will be used by DBManagerIMPL class to establish connection with database.
- * Parameters Specified are:
+ * Parameters Specified are as specified:
 @author Madhu
  */
 
