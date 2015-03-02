@@ -1,0 +1,9 @@
+<% _.each(items, function(item, index) { %>
+     
+    <%if ( !_.isUndefined(item.title)) { %>
+            <a class="menubtn <% if (item.name == active) print('active') %>"  href="<%= item.link %>">
+    		<%= item.title %>
+            </a>
+        <% } %>    
+    
+<% }); %>

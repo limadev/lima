@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+@media(min-width:240px) and (max-width:600px){ .banner { display:block; height:auto; padding:5px 0px !important; width:100%} }
+@media(min-width:400px) and (max-width:681px){  .logo-txt {  text-align:center !important; font-size:25px !important; line-height: 58px; padding:19px 0px 0px 10px  !important;} }
+@media(max-width:600px){  .logo-txt { text-align:center !important; width:100%; font-size:23px !important; line-height: 20px; padding:30px 0px 18px 10px !important;}  }
+@media(min-width:680px) and (max-width:768px) { .logo-txt {  text-align:center !important; font-size:31px !important; line-height: 90px; padding:7px 0px 0px 15px !important;} }
+@media(max-width:1050px) { .banner { display:block; height:auto; padding:20px 0px !important; width:100%} }
+
+@media (min-width:200px) and ( max-width:480px )  { a.menubtn {  margin:3px !important;  } }
+@media ( min-width:981px )  { .leftbox { display:block; background: #e9e9e9 !important ; height:200px; border: 1px solid #c4c4c4; margin:5px 0px 0px 0px } a.invetlist {  margin:10px 33px 10px 10px}
+a.invetlist:hover { margin:10px 33px 10px 10px}}
+@media ( min-width:981px )  { a.invetlist {  margin:10px 49px 10px 10px !important;}
+a.invetlist:hover { margin:10px 49px 10px 10px !important;}}
+
+@media (min-width:800px) and ( max-width:990px ){
+.logo-txt {  float:left; font-size:33px; font-weight:700; color:#333333; padding:35px 0px 0px 10px !important ;}
+}
+@media (min-width:400px) and ( max-width:990px ){
+
+.side_menu { margin:20px 0px 20px 0px !important; padding:auto 0;  display:block; text-align:center;  }
+
+.side_menu a {  background:none!important; display:inline !important; clear:both; padding:3px 10px 4px 0px!important; font-size:13px; color:#545454; text-decoration:none; font-weight:bold; text-align:left;}
+
+.side_menu a:hover {   }
+.side_menu a.active { background: #f7f1ec!important; }
+
+.icon { padding-right:10px }
+.leftbox { height:auto !important; }
+
+  }
+  
+  
+  
+  @media (min-width:850px) and ( max-width:990px ){ .rightboxinner {  padding:5px!important;} }
+  
+  @media (min-width:200px) and ( max-width:399px ){
+.side_menu { margin:10px 0px 0px 0px !important; padding:auto 0;  display:block; text-align:center;  }
+
+.side_menu a { background:none!important; border-bottom:1px solid #e2e2e2!important; display:block !important; clear:both; padding:3px 10px 4px 35px!important; font-size:13px; color:#545454; text-decoration:none; font-weight:bold; text-align:left;}
+
+.side_menu a:hover { background: #f7f1ec!important;  }
+.side_menu a.active {  background: #f7f1ec!important; }
+
+.icon { padding-right:10px }
+.leftbox { height:auto !important; }
+
+.rightboxinner {  margin:0px !important; padding:35px!important;}
+
+  }
+  
+  
+@media ( min-width:200px )and ( max-width:640px )  {.fff { position: absolute  !important; top: 39px !important; right: 22px; margin-top:0px !important;   }}
+
+.logo { display:block; float:left; margin-top:16px; }
+.logo-txt {  float:left; font-size:33px; font-weight:700; color:#333333; padding:35px 0px 0px 0px}
+ span.logotxt { color:#1674b6}
+span.usern { color:#216594 !important; font-weight:bold;}
+.header { background: #efefef url(images/header_line.png) repeat-x 0 0; width:100%;  }
+.banner { display:block; height:auto; padding:77px 0px; width:100%}
+
+.footer { background-color:#a9a9a9;  font-size:12px; color:#505050; text-align:center; padding:23px 0px; margin-top:5px;}
+
+.signin_btn { background:#2881c0 url(./images/btn-bg.png) repeat-x 0 0; border-radius: 3px; border: 1px solid #1c679b; color:#FFFFFF; font-size:13px; font-weight:bold; width:100px; height:30px; float:right; margin-top:42px; line-height:27px; text-align:center; cursor:pointer}
+
+.fp { margin:10px 0px; display:block}
+
+.banner-full {
+    width: 100%;
+    background: #5b8bac;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    
+	padding: 20px 0;
+}
+
+
+.ql { margin:auto 0; padding:auto 0;  display:block; text-align:center; }
+
+.a {  background: url(./images/bg_menu_btn_def.png) no-repeat 0 0; text-decoration:none; margin:0px 0px 0px 4px; width:136px; height:36px;  padding:6px 23px; line-height:40px; font-size:13px; color:#dee8f2; font-weight:normal; text-align:left; display:inline;}
+
+a.menubtn {  background: url(./images/bg_menu_btn_def.png) no-repeat 0 0; text-decoration:none; margin:0px ; width:158px; height:36px;  padding:0px; line-height:35px; font-size:13px; color:#dee8f2; font-weight:normal; text-align:center; display: inline-block; }
+
+a.menubtn:hover { background:url(./images/bg_menu_btn_active.png) no-repeat 0 0; font-weight:bold; color:#713602 }
+
+a.menubtn.active { background:url(./images/bg_menu_btn_active.png) no-repeat 0 0; font-weight:bold; color:#713602 }
+.fff { margin-top: 36px; display:block}
+
+.username { font-size:13px; text-align:right; padding:0px 0 6px 0;  }
+
+.logout { display:block}
+
+
+.leftbox { display:block; background: url(./images/bg_left_menu.png) repeat-y right center transparent ; border: 1px solid #c4c4c4; margin:5px 0px 0px 0px }
+.rightbox { display:block; background:#e4e4e4 ; height:auto; border: 1px solid #c4c4c4; margin:5px 0px 0px 0px }
+.rightboxinner { display:block; background:#ebeaea ; height:auto; border: 1px solid #d5d5d5; margin:50px ; padding:50px;}
+
+
+.side_menu { margin:60px 0px 0px 0px; padding:auto 0;  display:block; text-align:center;  }
+
+.side_menu a {  background: url(./images/bg_left_menu_def.png) no-repeat 10px center; display:block; clear:both; padding:3px 10px 4px 43px; font-size:13px; color:#545454; text-decoration:none; font-weight:bold; text-align:left;}
+
+.side_menu a:hover {  background: #e9e9e9 url(./images/bg_sub-menu.png) no-repeat right -1px; color:#216594  }
+.side_menu a.active {  background: #e9e9e9 url(./images/bg_sub-menu.png) no-repeat right center; color:#216594 }
+
+.icon { padding-right:10px }
+
+.control-label { color:#545454 !important ;}
+
+.rowheader { background-color:#d0d0d0; font-weight:bold}
+
+a.invetlist { float:right; background-color:#4d5b6a; font-size:12px; color:#FFFFFF; padding:5px 10px; margin:10px 33px 10px 10px}
+a.invetlist:hover { float:right; background-color:#536170; color:#FFFFFF; padding:5px 10px; margin:10px 33px 10px 10px}
+.iconeditdel { float:left; padding:0px 10px 0px 0px}
+h3.headings { padding: 20px 20px 8px 0px;border-bottom: 1px solid rgb(208, 208, 208);margin: 20px 20px 20px 20px;}
+
+.dyndata { color:#333333; line-height: 11px; padding-top: 10px;}

@@ -1,0 +1,68 @@
+<form class="form-horizontal" id="account-form" onsubmit="return false;">
+
+    <div class="form-group">
+        <label class="col-sm-4 control-label" for="username">Username</label>
+        <div class="col-sm-4">
+            <div class="checkbox"><label class=""><strong><%= username %></strong></label></div>
+        </div>
+    </div>
+
+    <div class="form-group" id="user_old_password_group">
+        <label class="col-sm-4 control-label" for="user_old_password">Current Password</label>
+        <div class="col-sm-4">
+            <input type="password" class="form-control" id="user_old_password">
+            <span class="help-danger help-block" id="user_old_password_danger"></span>
+            <p class="help-block">You need to type in your password to change account settings.</p>
+        </div>
+    </div>
+
+    <div class="form-group" id="user_password_group">
+        <label class="col-sm-4 control-label" for="user_password">New Password</label>
+        <div class="col-sm-4">
+            <input type="password" class="form-control" id="user_password">
+            <span class="help-danger help-block" id="user_password_danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group" id="confirm_password_group">
+        <label class="col-sm-4 control-label" for="confirm_password">Confirm Password</label>
+        <div class="col-sm-4">
+            <input type="password" class="form-control" id="confirm_password">
+            <span class="help-danger help-block" id="confirm_password_danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group" id="user_first_name_group">
+        <label class="col-sm-4 control-label" for="user_first_name">First Name</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="user_first_name" value="<%= user_first_name %>">
+            <span class="help-danger help-block" id="user_first_name_danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group" id="user_last_name_group">
+        <label class="col-sm-4 control-label" for="user_last_name">Last Name</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="user_last_name" value="<%= user_last_name %>">
+            <span class="help-danger help-block" id="user_last_name_danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group" id="user_email_group">
+        <label class="col-sm-4 control-label" for="user_email">Email</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="user_email" value="<%= user_email %>">
+            <span class="help-danger help-block" id="user_email_danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label"></label>
+        <div class="col-sm-4">
+            <button type="submit" class="btn btn-primary">Save Account</button>
+        </div>
+        <div class="col-sm-4" style="text-align : right;">
+            <button type="button" class="btn btn-primary">Delete this Account</button>
+        </div>
+    </div>
+    
+</form>

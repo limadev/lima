@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/bootstrap/css/bootstrap-datetimepicker.min.css"
+	rel="stylesheet">
+<link href="assets/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+<link href="assets/bootstrap/css/bootstrap-theme.min.css"
+	rel="stylesheet">
+<link href="css/my-style.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/template.css">
+<link rel="stylesheet" type="text/css" href="css/jquery-ui-1.9.1.css">
+<link rel="stylesheet" type="text/css"
+	href="css/bootstrap-tagsinput.css">
+	
+	
+<script type="text/javascript" src="assets/jquery.1.8.2-min.js"></script>
+<script type="text/javascript" src="assets/jquery-ui-1.9.1.js"></script>
+<script type="text/javascript" src="assets/jquery.cookie.js"></script>
+<!--[if IE ]><script src="assets/json2.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.js"></script>
+    <![endif]-->
+
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript"
+	src="assets/bootstrap/js/bootstrap-min.js"></script>
+<script type="text/javascript" src="assets/typeahead.js"></script>
+<script type="text/javascript" src="assets/hogan-2.0.0.js"></script>
+<script src="assets/bootstrap-tagsinput.js"></script>
+
+<script src="assets/bootstrap-tokenfield.js"></script>
+<script type="text/javascript" src="assets/underscore-min.js"></script>
+<script type="text/javascript" src="assets/backbone-min.js"></script>
+<script type="text/javascript" src="assets/jquery.validate.js"></script>
+
+<!--development-->
+<script type="text/javascript" src="js/includeFiles.js"></script>
+<script type="text/javascript" src="js/app/application.js"></script>
+<script type="text/javascript">
+	includeTemplates(templates);
+</script>
+<script type="text/javascript">
+	includeFiles(files);
+</script>
+<!--/development-->
+
+
+<!-- template -->
+
+<style>
+.ui-autocomplete-loading {
+	background: white url('js/app/images/ui-anim_basic_16x16.gif') right
+		center no-repeat;
+}
+
+.label {
+	line-height: 2.5;
+}
+
+.label-info {
+	background-color: #428BCA;
+}
+</style>
+
+
+</head>
+
+<body style="background-color: #d5d5d5">
+	<div class="header" style="margin-top: -48px;">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-3">
+				 <a  href="#additem">	<img class="logo" src="js/app/images/img/logo.png">  </a>
+				</div>
+				<div class="col-md-5">
+					<div class="logo-txt">
+						<span class="logotxt" style="color: #33B54B">Inventory </span><span class='logotxt' style="color: #44B5E1">Management</span>
+					</div>
+				</div>
+				<div class="nav navbar-nav navbar-right" style="margin-right: 10px;">
+					<div class="dropdown" id="user-info" style="padding-top: 8px;"></div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="banner-full">
+		<div class="container" id="main-menu"></div>
+	</div>
+	<div class="container">
+
+		<div id="userNavBar"></div>
+		<div class="alert alert-warning" id="messages"></div>
+		<div class="row" id="main-area"></div>
+
+
+	</div>
+
+
+	<div class="footer">Copyrights @ FutureCloud - 2015</div>
+</body>
+</html>

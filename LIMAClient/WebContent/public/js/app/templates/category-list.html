@@ -1,0 +1,52 @@
+<div class="col-md-3" style="padding:0px 5px 0px 0px">
+	<div class="leftbox" style=" height:384px">
+       <div class="side_menu">
+       	<a class="active" href="#categorylist"> <img class="icon" src="js/app/images/img/add_stock.png">Category List</a>
+        <a href="#additem"> <img class="icon" src="js/app/images/img/add_item.png"> Add Product</a>
+       </div>
+	</div>
+</div>
+
+<div class="container">
+
+	<div class="rightbox">
+
+		<h3 class="headings">Categories List</h3>
+		<div class="rightboxinner" style="margin: 0px 15px 35px 15px; padding: 5px !important;overflow: scroll; height:400px;">
+
+			<table class="table table-striped">
+				<tr>
+				<td class="rowheader">Id</td>
+                <td class="rowheader">Name</td>
+                <td class="rowheader">Description</td>
+                 <td class="rowheader">Code</td>
+                 <td class="rowheader">Created</td>
+                  <td class="rowheader">Edit / Delete</td>
+				</tr>
+				<% if(_.isEmpty(categorylist)){ %>
+				<tr>
+					<td colspan="9" style="text-align: center;">No Category present
+						in db.</td>
+				</tr>
+				<% }else{ %> <% _.each(categorylist, function(category) { %>
+				<tr>
+				    <td><%= category.category_id %></td>
+					<td><%= category.name %></td>
+					<td><%= category.description %></td>
+					<td><%= category.code %></td>
+					<td><%= category.created %></td>
+					<td><a href="javascript: void(0)"> <img class="updatecategory"
+							id="<%= category.category_id %>" src="js/app/images/img/edit.png"
+							alt="edit" width="24" height="24"></a> <a
+						href="javascript: void(0)"> <img class="deletecategory"
+							id="<%= category.category_id %>" src="js/app/images/img/del.png"
+							alt="edit" width="24" height="24">
+					</a></td>
+				</tr>
+				<% }); %> <% } %>
+			</table>
+		</div>
+
+	</div>
+
+</div>
